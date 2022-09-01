@@ -12,21 +12,3 @@ Segunda Array: ${arrayString}
 Terceira Array: ${arrayBagunca}.
 `)
 
-//Exercicio 2
-
-console.log(`
-Carcteres da Primeira: ${arrayNum.length};
-Caracteres da Segunda: ${arrayString.length};
-Caracteres da Terceira: ${arrayBagunca.length}.
-`)
-
-console.log(`
-Primeiro item da primeira: ${arrayNum[0]};
-Segundo item da segunda: ${arrayString.slice(1, 2)};
-Terceiro item da terceira: ${arrayBagunca.slice(2, 3)}.
-`)
-
-console.log(`
-A primeira possui o numero "123"? ${arrayNum.includes(123)}
-A Terceira possui a palavra "oi"? ${arrayBagunca.includes("oi")}
-`)
